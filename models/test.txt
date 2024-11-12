@@ -1,0 +1,2 @@
+# Run download_model.sh to help down weight model and save in file models 
+# option2: git clone https://huggingface.co/THP2903/Erax_llm_ocr
