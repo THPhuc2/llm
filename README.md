@@ -50,6 +50,16 @@ cd src
 python gradio_llm.py
 ```
 
+## Quantization model:
+- Model đã quantization 4bit bằng phương pháp AutoAWQ basic:
+- Xem và load model tại https://huggingface.co/THP2903/erax
+- Dùng Erax-llm-ocr 4bit quantize
+```bash
+# vào file .env thay đổi đường dẫn
+MODEL_PATH="<path model huggingface>"
+# LOAD_IN_8BIT="True"
+```
+
 ## Cấu trúc dự án
 
 - app.py: Tập tin chính để khởi chạy Gradio UI.
